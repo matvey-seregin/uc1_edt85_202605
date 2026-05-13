@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7752d404-9fdd-4bee-91a8-b7a3eac156df">
+  <producedTypes>
+    <objectType typeId="9cf772ba-94f2-49e3-9bcc-7e7c9e370a5e" valueTypeId="8df260d5-3712-49e6-84f8-9d256b00d3c6"/>
+    <refType typeId="93358038-9a01-4616-8b2d-42129673df5e" valueTypeId="270a84e0-8e4d-4ad9-baee-5fe0a859be72"/>
+    <selectionType typeId="c1124ff6-618a-4a67-b761-ddd11ec23a4c" valueTypeId="736d62d2-bae8-4121-8d1c-4c2d2998d285"/>
+    <listType typeId="c66fbf09-fde6-40a2-83c9-ac02a88790ef" valueTypeId="55cd5ab0-865e-4b6c-996d-c605276375fe"/>
+    <managerType typeId="a589694a-ab2d-4a75-8f94-d28d0142d2c7" valueTypeId="2d0adef6-df3a-478c-a82b-70e2b498b32b"/>
+  </producedTypes>
+  <name>ВидыРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды расходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыРасходов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыРасходов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид расходов</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

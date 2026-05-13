@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf6e9476-90fa-4b2f-9aa7-c440fca52a92">
+  <name>УправлениеАвтомастерской</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление автомастерской</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e5eaf574-2ad6-44d5-8cfa-24a5653a0375"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b2e31332-f85c-4a50-91a7-dbf1fef78a38"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b2a8265e-0bcd-493e-abc0-c9c28473429d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="027bbd48-7980-4a57-bbbe-13d992984dd8"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3787b32b-4165-494c-b6cd-0ac595f476ba"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="51b168c1-c805-47f2-8c5d-8287c8ee230d"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="467a7fb3-d6b3-4157-a806-e90558c193c2"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>Version8_5EnableTaxi</interfaceCompatibilityMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="f1ac3263-eecc-4b13-aeef-6d04d8f79571">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ВыполнениеРабот</subsystems>
+  <subsystems>Subsystem.Запись</subsystems>
+  <subsystems>Subsystem.Настройки</subsystems>
+  <roles>Role.АдминистраторМастерской</roles>
+  <roles>Role.Мастер</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Руководитель</roles>
+  <catalogs>Catalog.Автомобили</catalogs>
+  <catalogs>Catalog.ВидыРасходов</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Материалы</catalogs>
+  <catalogs>Catalog.Работы</catalogs>
+  <catalogs>Catalog.РабочиеМеста</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.ВыполнениеРабот</documents>
+  <documents>Document.Заявка</documents>
+  <enums>Enum.Должности</enums>
+</mdclass:Configuration>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa36a754-dd00-43ec-8177-b98e8daeb5e2">
+  <producedTypes>
+    <objectType typeId="aa1def1e-b32f-42a9-9211-c2104c0f2d0f" valueTypeId="b46432f9-d5bf-49b5-8104-3ab1976cbeb6"/>
+    <refType typeId="f998d090-b3b2-4818-9dac-f2c9db2a0cac" valueTypeId="485dbdc0-5c8f-413f-9062-256f264012b2"/>
+    <selectionType typeId="3a75a9d6-e127-4e39-a4e8-811e8dd59990" valueTypeId="24f92e74-92c2-4889-bce3-f8203dce567a"/>
+    <listType typeId="8fd212d5-0147-4cf6-a6de-09a36cd9b98d" valueTypeId="1a964dc9-4415-4439-bfb1-b43443d420a8"/>
+    <managerType typeId="173d8e11-9ba0-4900-ae17-2daf9bc3f5db" valueTypeId="4f2c631d-3e23-469d-8df1-b72d901d42d7"/>
+  </producedTypes>
+  <name>РабочиеМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочие места</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РабочиеМеста.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.РабочиеМеста.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Рабочее место</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

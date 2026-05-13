@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2db79cb-d48f-432e-be98-f0a3ac34faca">
+  <name>ВыполнениеРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение работ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Автомобили</content>
+  <content>Catalog.Клиенты</content>
+  <content>Catalog.Материалы</content>
+  <content>Catalog.Работы</content>
+  <content>Catalog.РабочиеМеста</content>
+  <content>Document.ВыполнениеРабот</content>
+</mdclass:Subsystem>

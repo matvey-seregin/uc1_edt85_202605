@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a21ff1a5-710b-4ca0-92d9-28828d6fde53">
+  <producedTypes>
+    <refType typeId="74ec7713-57b2-4ff2-95f6-965e4552cf30" valueTypeId="2763c533-891f-4c88-afaf-9f7b0426bf76"/>
+    <listType typeId="3a1796ba-c26d-466d-9e3d-6e3fda9106b7" valueTypeId="588d99bf-5fe7-4418-bd5b-7cb612d2b03b"/>
+    <managerType typeId="6c46e53d-ec46-461a-9d42-8b4c44dc6cac" valueTypeId="e5c40f08-8b38-4bad-98ed-25baa3af1985"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5aad2061-1047-4aaf-aed6-af9ca751706a">
+    <name>АдминистраторСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор системы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aed6fd56-32b1-4143-a8bb-2d58a689c16d">
+    <name>АдминистраторМастерской</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор мастерской</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="672a1b3f-41c6-48be-bc4f-6d52a9f2076d">
+    <name>Мастер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мастер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="808b862a-e532-4cea-8d6c-2e387838da3f">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
