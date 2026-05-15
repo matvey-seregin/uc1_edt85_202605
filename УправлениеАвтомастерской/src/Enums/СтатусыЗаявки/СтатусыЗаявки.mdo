@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bcd03da-333e-4ce8-8a0d-3751b7419432">
+  <producedTypes>
+    <refType typeId="68d9d14b-72e6-463d-9364-193adba00d77" valueTypeId="3cd16f6e-4008-484a-a33f-cd9ccc3ef9af"/>
+    <listType typeId="4d7bad16-d814-4ea8-aea3-9881ee1f3639" valueTypeId="a9f70385-4391-461e-950b-e141fb5b3c68"/>
+    <managerType typeId="68d77808-f880-44c0-9169-eff6e18aa90a" valueTypeId="c476aa27-0b5d-42ac-866b-73c4f78e666a"/>
+  </producedTypes>
+  <name>СтатусыЗаявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b1e1bfa7-e0c0-4c99-84ca-059c0133e376">
+    <name>Запланировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировано</value>
+    </synonym>
+    <color xsi:type="core:ColorRef">
+      <color>Palette.Yellow</color>
+    </color>
+  </enumValues>
+  <enumValues uuid="2fcfd320-dea8-4171-bfbc-01ae1e3495ae">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+    <color xsi:type="core:ColorRef">
+      <color>Palette.Green</color>
+    </color>
+  </enumValues>
+  <enumValues uuid="e9cdcbf8-30b9-4b65-b909-70c607bd2772">
+    <name>Отменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменено</value>
+    </synonym>
+    <color xsi:type="core:ColorRef">
+      <color>Palette.Gray</color>
+    </color>
+  </enumValues>
+</mdclass:Enum>

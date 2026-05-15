@@ -24,12 +24,17 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
+  <shortCaption>
+    <key>ru</key>
+    <value>Управление автомастерской</value>
+  </shortCaption>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <interfaceCompatibilityMode>Version8_5EnableTaxi</interfaceCompatibilityMode>
+  <version85InterfaceMigrationMode>Use</version85InterfaceMigrationMode>
   <compatibilityMode>8.5.1</compatibilityMode>
   <languages uuid="f1ac3263-eecc-4b13-aeef-6d04d8f79571">
     <name>Русский</name>
@@ -56,4 +61,6 @@
   <documents>Document.ВыполнениеРабот</documents>
   <documents>Document.Заявка</documents>
   <enums>Enum.Должности</enums>
+  <enums>Enum.СтатусыЗаявки</enums>
+  <informationRegisters>InformationRegister.ЗапланированныеРаботы</informationRegisters>
 </mdclass:Configuration>

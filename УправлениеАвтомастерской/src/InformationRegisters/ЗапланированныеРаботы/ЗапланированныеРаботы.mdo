@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7f628a6-4081-47ba-a469-69ba7ee67242">
+  <producedTypes>
+    <selectionType typeId="4352144f-ca99-4051-8d32-990850c1f92b" valueTypeId="104bfa0f-b5a6-4657-923f-f589bd228cb4"/>
+    <listType typeId="c4cd9ce5-854a-4a90-8b81-53d6e8b5d4f9" valueTypeId="a38d8271-3aa5-4986-a806-130ca86e28cf"/>
+    <managerType typeId="add1ca3d-bc3d-49ca-86bb-072056f350a8" valueTypeId="d22cc2d1-4f3b-4452-895e-072cfedee18b"/>
+    <recordSetType typeId="3916841a-a2e8-4c20-97ff-bb64340471bf" valueTypeId="c29a40e5-8728-4854-9898-a6ea4f4b366b"/>
+    <recordKeyType typeId="94aa6fb4-6373-40ff-80a5-e0a9fd8df7ab" valueTypeId="3a6e6ce6-207d-47d9-9f8d-f8940d76affe"/>
+    <recordType typeId="ee5530de-9888-473f-94fd-f024fe22e8f4" valueTypeId="192ac2cf-85f2-41b3-9be3-a42c8d640340"/>
+    <recordManagerType typeId="0903e539-de38-45b6-be16-b8c2d4f5592c" valueTypeId="5a33b180-5b64-402b-9fcf-e0bc906bb17f"/>
+  </producedTypes>
+  <name>ЗапланированныеРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запланированные работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0a8ce8bc-1c7a-4279-bd8a-841bdeb3c356">
+    <name>ВремяОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5d44c4b1-8859-4120-965d-4b3ab796bb0b">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ff9db3be-5f44-4f63-b1b6-7a5b499124fa">
+    <name>Автомобиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобиль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Автомобили</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ЗапланированныеРаботы.Resource.Клиент</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d9030073-6d0e-408f-b2ee-c8fe59412e7c">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a1938a63-aa51-47d3-a301-4f864e92e961">
+    <name>ВремяНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>
